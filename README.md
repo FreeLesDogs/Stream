@@ -1,6 +1,6 @@
-## Welcome to Stream
+# Welcome to Stream
 
-Bienvenue sur** [Stream]** (https://FreeLesDogs/Stream/):votre fournisseur de liens pour les matchs
+Bienvenue sur [**Stream**] (https://FreeLesDogs/Stream/) : votre fournisseur de liens pour les matchs
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
