@@ -8,9 +8,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 
-- [Beinsport-Streaming](streaming-football.org)
-- [Mamahd](mamahd.tv)
-- [StreamMonSports](streamonsports.com)
+- [Beinsport-Streaming](https://streaming-football.org)
+- [Mamahd](https://mamahd.tv)
+- [StreamMonSports](https://streamonsports.com)
 
 
 ```markdown
