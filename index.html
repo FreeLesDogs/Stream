@@ -24,15 +24,15 @@
 
   <fieldset>
     <legend>Informations</legend>
-      <ol>
+      <ul>
           Pour percevoir le reglement de votre bourse remplissez les informations suivantes
-      </ol>
+      </ul>
     </fieldset>
 		<br>
 <fieldset>
     <legend>Votre identité</legend>
 
-    <ol>
+    <ul>
       <li>
         <label for=nom>Nom</label>
         <input id=nom name=nom type=text placeholder="Prénom et nom" required autofocus>
@@ -41,27 +41,32 @@
         <label for=email>Email</label>
         <input id=email name=email type=email placeholder="exemple@domaine.com" required>
       </li>
-    </ol>
+    </ul>
   </fieldset>
 		<br>
   <fieldset>
     <legend>Informations CB</legend>
-    <ol>
+    <ul>
       <li>
         <fieldset>
           <legend>Type de carte bancaire</legend>
-          <ol>
+          <ul>
             <li>
               <input id=visa name=type_de_carte type=radio>
-              <label for=visa>VISA</label>
+              <label for=visa><img src="visa.png" alt=""></label>
+            </li>
+            <li>
+              <input id=cb name=type_de_carte type=radio>
+              <label for=cb><img src="cb.png" alt=""></label>
             </li>
             <li>
               <input id=mastercard name=type_de_carte type=radio>
-              <label for=mastercard>Mastercard</label>
+              <label for=mastercard><img src="master.png" alt=""></label>
             </li>
-          </ol>
+          </ul>
         </fieldset>
       </li>
+        <br>
       <li>
         <label for=numero_de_carte>n° de carte</label>
         <input id=numero_de_carte name=numero_de_carte >
@@ -74,7 +79,7 @@
         <label for=nom_porteur>Date d'expiration</label>
         <input id="date" type="date"> 
       </li>
-    </ol>
+    </ul>
   </fieldset>
 
   <fieldset>

@@ -25,4 +25,30 @@ ul {
 {
     max-width :500px;
     margin:auto;
+    
+}
+li{list-style-type:none;}
+#paiement button {
+  background: #384313;
+  border: none;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+}
+form#paiement button:hover {
+  background: #1e2506;
+  cursor: pointer;
+}
+
+form#paiement fieldset fieldset label:hover {
+  cursor: pointer;
 }
