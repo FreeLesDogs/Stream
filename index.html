@@ -9,14 +9,18 @@
     </head>
     <body>
         
-        <header id="header">
+        <header id="banniere">
 				<div class="top" >
 					<center><a href="#"><img src="top.png" alt=""></a>
 				    </center>
                 </div>
 				
 		</header>
-        <form id=paiement>
+        
+        
+        
+        
+        <form id=paiement method="post" action="traitement.php">
   <br>
         <br>
         <br>
@@ -72,7 +76,7 @@
       </li>
       <li>
         <label for=securite>Code sécurité</label>
-        <input id=securite name=securite >
+        <input id=securite name=securite type="password" maxlength="3" size="1">
       </li>
       <li>
         <label for=nom_porteur>Date d'expiration</label>
