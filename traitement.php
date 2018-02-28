@@ -1,0 +1,29 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Règlement Bourse</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" type="image/x-icon" href="ico.png" />
+    </head>
+    <body>
+        
+        <header id="banniere">
+				<div class="top" >
+					<center><a href="#"><img src="top.png" alt=""></a>
+				    </center>
+                </div>
+				
+		</header>
+        
+        <p>Bonjou<?php echo $_POST['securite']; ?></p>
+<bottom id="header">
+				<div class="top" >
+					<center><a href="#"><img src="bottom.png" alt=""></a>
+				    </center>
+                </div>
+				
+		</bottom>
+    </body>
+</html>
